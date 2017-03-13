@@ -1,0 +1,167 @@
+.heading {
+    font-family: 'Didot';
+    color: rgb(122, 112, 102);
+    text-align: center;
+}
+
+.title {
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(122, 112, 102);
+}
+
+.main-text {
+    font-family: 'Didot', sans-serif;
+    color: rgb(81, 79, 73);
+    text-align: center;
+}
+
+.main-text-left {
+    font-family: 'Didot', sans-serif;
+    color: rgb(81, 79, 73);
+}
+
+.sub-text {
+    font-family: 'Didot', sans-serif;
+    color: rgb(237, 226, 215);
+    text-align: center;
+}
+
+a {
+    color: rgb(237, 226, 215);
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+.b-border {
+    border-bottom: 1px solid rgb(122, 112, 102);
+}
+
+.intro {
+    height: 32vh;
+    width: 60vw;
+    background-color: rgba(122, 112, 102, .2);
+}
+
+.email {
+    height: 86%;
+    width: 40%;
+    background-color: rgba(122, 112, 102, .5);
+}
+
+
+/*.bg-yel{
+    background-color: rgb(255, 250, 232);*/
+
+.bg-pic {
+    background-image: url(https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/1798609_924146140929829_2755872486769183154_n.jpg?oh=2fd0ddb09a177dd111901aa375eeb317&oe=5912E4CF);
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-pic-bottom {
+    background-image: url(https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/1798609_924146140929829_2755872486769183154_n.jpg?oh=2fd0ddb09a177dd111901aa375eeb317&oe=5912E4CF);
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress {
+    background-color: rgb(122, 112, 102);
+}
+
+.btn {
+    background-color: rgb(237, 226, 215);
+}
+
+.btn:hover {
+    background-color: rgb(237, 226, 215);
+}
+
+.btn:focus {
+    background-color: rgb(237, 226, 215);
+}
+
+.progress .determinate {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(237, 226, 215);
+    transition: width .3s linear;
+}
+
+
+/* label color */
+
+.input-field label {
+    color: rgb(237, 226, 215);
+}
+
+
+/* label focus color */
+
+.input-field input[type=text]:focus+label {
+    color: rgb(237, 226, 215);
+}
+
+
+/* label underline focus color */
+
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid rgb(237, 226, 215);
+    box-shadow: 0 1px 0 0 rgb(237, 226, 215);
+}
+
+.input-field input[type=email]:focus {
+    border-bottom: 1px solid rgb(237, 226, 215);
+    box-shadow: 0 1px 0 0 rgb(237, 226, 215);
+}
+
+.input-field input[type=textarea]:focus {
+    border-bottom: 1px solid rgb(237, 226, 215);
+    box-shadow: 0 1px 0 0 rgb(237, 226, 215);
+}
+
+
+/* valid color */
+
+.input-field input[type=text].valid {
+    border-bottom: 1px solid rgb(237, 226, 215);
+    box-shadow: 0 1px 0 0 rgb(237, 226, 215);
+}
+
+
+/* invalid color */
+
+.input-field input[type=text].invalid {
+    border-bottom: 1px solid rgb(237, 226, 215);
+    box-shadow: 0 1px 0 0 rgb(237, 226, 215);
+}
+
+
+/* icon prefix focus color */
+
+.input-field .prefix.active {
+    color: rgb(237, 226, 215);
+}
+
+textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid rgb(237, 226, 215);
+    box-shadow: 0 1px 0 0 rgb(237, 226, 215);
+}
