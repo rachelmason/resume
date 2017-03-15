@@ -57,7 +57,7 @@ ul {
 
 .bg-pic {
     background-image: url(https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/1798609_924146140929829_2755872486769183154_n.jpg?oh=2fd0ddb09a177dd111901aa375eeb317&oe=5912E4CF);
-    height: 700px;
+    height: 80vh;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -70,7 +70,7 @@ ul {
 
 .bg-pic-bottom {
     background-image: url(https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/1798609_924146140929829_2755872486769183154_n.jpg?oh=2fd0ddb09a177dd111901aa375eeb317&oe=5912E4CF);
-    height: 450px;
+    height: 52vh;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -86,7 +86,8 @@ ul {
 }
 
 .btn {
-    background-color: rgb(237, 226, 215);
+    background-color: white;
+    color: rgb(122, 112, 102);
 }
 
 .btn:hover {
